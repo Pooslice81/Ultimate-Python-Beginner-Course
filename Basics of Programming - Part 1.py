@@ -1,4 +1,4 @@
-# one = 1
+one = 1
 # two = 2
 # three = 3
 #
@@ -15,10 +15,14 @@
 # string_var = "Hello" + "1"
 # print(string_var)
 
+
 def function_name():
-    new_var = " Hello World"
+    global one
+    print(one)
+    new_var = "Hello World"
     print(new_var)
     return
 
+
 function_name()
-#print(new_var)
+# print(new_var)
