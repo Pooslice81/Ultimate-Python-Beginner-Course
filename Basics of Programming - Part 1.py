@@ -26,3 +26,10 @@ def function_name():
 
 function_name()
 # print(new_var)
+
+count = 0
+print(count)
+
+while count <= 20:
+    print(count)
+    count += 1
