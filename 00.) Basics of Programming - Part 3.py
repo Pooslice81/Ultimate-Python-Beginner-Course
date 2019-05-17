@@ -38,10 +38,13 @@ if time == "Night" and sleepy == True:
 print(pajamas)
 
 time = "Day"
-sleepy = True
+sleepy = False
 pajamas = "Off"
+in_bed = True
 
 if time == "Night" or sleepy == True:
+    pajamas = "On"
+elif time == "Morning" and in_bed == True:
     pajamas = "On"
 
 print(pajamas)
