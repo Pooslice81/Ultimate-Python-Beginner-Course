@@ -36,3 +36,12 @@ if time == "Night" and sleepy == True:
     pajamas = "On"
 
 print(pajamas)
+
+time = "Day"
+sleepy = True
+pajamas = "Off"
+
+if time == "Night" or sleepy == True:
+    pajamas = "On"
+
+print(pajamas)
