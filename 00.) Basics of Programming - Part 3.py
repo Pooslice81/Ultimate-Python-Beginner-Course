@@ -28,23 +28,25 @@
 #
 # print(thermo)
 
-time = "Night"
-sleepy = True
-pajamas = "Off"
-
-if time == "Night" and sleepy == True:
-    pajamas = "On"
-
-print(pajamas)
+# time = "Night"
+# sleepy = True
+# pajamas = "Off"
+#
+# if time == "Night" and sleepy == True:
+#     pajamas = "On"
+#
+# print(pajamas)
 
 time = "Day"
 sleepy = False
 pajamas = "Off"
-in_bed = True
+in_bed = False
 
-if time == "Night" or sleepy == True:
+if time == "Night" and sleepy == True:
     pajamas = "On"
-elif time == "Morning" and in_bed == True:
+elif time == "Morning" or in_bed == True:
     pajamas = "On"
+else:
+    pajamas = "Off"
 
 print(pajamas)
