@@ -49,4 +49,4 @@ elif time == "Morning" or in_bed == True:
 else:
     pajamas = "Off"
 
-print(pajamas)
+print("Pajamas are " + pajamas)
