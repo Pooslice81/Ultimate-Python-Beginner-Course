@@ -19,3 +19,4 @@ scores[1] = ["Hello", "World"]  # How to embed a list in another list
 print(scores[1][1])  # How to print an element from within an embedded list.
 
 scores.append("new_element")  # how to append an element to the end of an existing list.
+print(scores)
