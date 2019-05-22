@@ -8,3 +8,7 @@ print(scores[-2])   # negative values count backwards from the last element. las
 print(scores[0:2])  # print from the 1st element up to but not including the 3rd element
 print(scores[1:2])  # print from the 1st element (inclusive) up to but not including the 3rd element
 print(scores[2:])   # print from the 3rd element to the end.
+
+scores[0] = 1
+scores[1] = "A"
+print(scores)
