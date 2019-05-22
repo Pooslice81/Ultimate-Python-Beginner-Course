@@ -14,3 +14,6 @@ scores[1] = "A"
 print(scores)
 
 scores[0:1] = []    # how to remove list elements
+
+scores[1] = ["Hello", "World"]  # How to embed a list in another list
+print(scores)
