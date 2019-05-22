@@ -16,4 +16,4 @@ print(scores)
 scores[0:1] = []  # how to remove list elements
 
 scores[1] = ["Hello", "World"]  # How to embed a list in another list
-print(scores)
+print(scores[1][1])  # How to print an element from within an embedded list.
