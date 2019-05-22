@@ -8,15 +8,21 @@ print(scores[-2])  # negative values count backwards from the last element. last
 print(scores[0:2])  # print from the 1st element up to but not including the 3rd element
 print(scores[1:2])  # print from the 1st element (inclusive) up to but not including the 3rd element
 print(scores[2:])  # print from the 3rd element to the end.
+print()
 
 scores[0] = 1  # how to reassign values of elements
 scores[1] = "A"
 print(scores)
+print()
 
 scores[0:1] = []  # how to remove list elements
+print(scores)
+print()
 
 scores[1] = ["Hello", "World"]  # How to embed a list in another list
 print(scores[1][1])  # How to print an element from within an embedded list.
+print()
 
 scores.append("new_element")  # how to append an element to the end of an existing list.
 print(scores)
+print()
