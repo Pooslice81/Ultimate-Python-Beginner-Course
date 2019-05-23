@@ -28,5 +28,24 @@ for n in numbers:
 print()
 
 # range(start, stopping, steps)
+list_2 = []
+
 for num in range(10):
     print(num)
+print()
+
+list_2 = []
+
+for num in range(10):
+    list_2.append(num)
+    print(num)
+print(list_2)
+print()
+
+list_2 = []
+
+for num in range(1, 10, 2):
+    list_2.append(num)
+    print(num)
+print(list_2)
+print()
