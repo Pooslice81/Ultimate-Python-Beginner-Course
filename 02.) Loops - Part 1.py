@@ -27,4 +27,6 @@ for n in numbers:
         print(n)
 print()
 
+# range(start, stopping, steps)
 for num in range(10):
+    print(num)
