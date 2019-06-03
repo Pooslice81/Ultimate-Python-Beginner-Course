@@ -9,3 +9,9 @@ for participant in participants:
     position += 1
 
 print(position)
+
+for current_index in range(len(participants)):
+    if participants[current_index] == "Joe":
+        break
+
+print(current_index)
