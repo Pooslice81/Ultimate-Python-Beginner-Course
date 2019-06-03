@@ -25,6 +25,7 @@ print()
 for number in range(10):
     if number % 3 == 0:
         print(number)
-        print("Divisible by 3")
+        print(number, "is divisible by 3")
         continue
-    print("Not divisibla by 3")
+    print(number, "is not divisible by 3")
+print()
