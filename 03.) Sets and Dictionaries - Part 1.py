@@ -19,3 +19,6 @@ country_set = set(country_list)
 
 print(country_list)
 print(country_set)
+
+if "Australia" in country_set:
+    print("Australia is in", country_set)
