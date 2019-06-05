@@ -13,6 +13,8 @@ black_shoes = {42:2,
 
 while True:
     purchase_size = int(input("What shoe size would you like to buy? \n"))
+    if purchase_size < 0:
+        break
     if black_shoes[purchase_size] > 0:
         black_shoes[purchase_size] -= 1
     else:
