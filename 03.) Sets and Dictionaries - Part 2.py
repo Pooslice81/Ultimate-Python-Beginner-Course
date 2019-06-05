@@ -14,6 +14,10 @@ black_shoes = {42:2,
 while True:
     purchase_size = int(input("What shoe size would you like to buy? \n"))
     if purchase_size < 0:
+        print("Invalid input")
+        break
+    if purchase_size not in black_shoes:
+        print("This shoe size is out of stock")
         break
     if black_shoes[purchase_size] > 0:
         black_shoes[purchase_size] -= 1
