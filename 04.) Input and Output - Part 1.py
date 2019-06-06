@@ -23,5 +23,5 @@ print(score)
 for i in range(5):
     current_score = float(input("Please enter the score " + str(i + 1) + ": "))
     score.append(current_score)
-    print("The score you entered was", current_score)
+    print("The score you entered was\n", current_score)
 print(score)
