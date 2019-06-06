@@ -3,3 +3,11 @@
 - We can output desired values to the screen.
 - How can we convert input to desired data type?
 """
+
+# var = input("Message to the user")
+
+name = input("What is your name? ")
+print(name)
+
+age = input("How old are you? ")
+print(age)
