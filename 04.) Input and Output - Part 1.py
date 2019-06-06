@@ -11,3 +11,11 @@ print(name)
 
 age = int(input("How old are you? "))
 print(age)
+print(age + 4)
+
+score = []
+
+for i in range(5):
+    current_score = int(input("Please enter the score: "))
+    score.append(current_score)
+print(score)
