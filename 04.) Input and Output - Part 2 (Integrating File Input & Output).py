@@ -21,7 +21,7 @@ cities_file.close()
 cities_file = open("cities", "r")
 
 for line in cities_file:
-    print(line)
+    print(line, end="")
 
 the_whole_file = cities_file.read()
 
