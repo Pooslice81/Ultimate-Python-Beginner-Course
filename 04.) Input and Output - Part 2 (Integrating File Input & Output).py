@@ -7,12 +7,12 @@
 # file = open("filename", "r/w/a/r+")
 # file.close()
 
-cities = ["London\n", "Paris\n", "New York\n", "Los Angeles\n", "Cape Town\n"]
+cities = ["London", "Paris", "New York", "Los Angeles", "Cape Town"]
 
 cities_file = open("cities", "w")
 
 for city in cities:
-    cities_file.write(city)
+    cities_file.write(city + "\n")
 
 print("Done")
 
