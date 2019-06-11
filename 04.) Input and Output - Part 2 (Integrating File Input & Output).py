@@ -47,6 +47,7 @@ for line in cities_file:
 
 cities_file.close()
 
-with open("cities", "r") as cities_file:
-    for line in cities_file:
-        print(line)
+for i in range(5):
+    with open("cities", "r") as cities_file:
+        for line in cities_file:
+            print(line)
