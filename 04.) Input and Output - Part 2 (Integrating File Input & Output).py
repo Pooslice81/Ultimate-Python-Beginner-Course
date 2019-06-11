@@ -20,6 +20,12 @@ cities_file.close()
 
 cities_file = open("cities", "r")
 
+first_line = cities_file.readline()
+second_line = cities_file.readline()
+
+print(first_line)
+print(second_line)
+
 for line in cities_file:
     print(line, end="")
 
@@ -28,3 +34,19 @@ the_whole_file = cities_file.read()
 print(the_whole_file)
 
 cities_file.close()
+
+final_spot = "Melbourne"
+
+cities_file = open("cities", "a")
+cities_file.write(final_spot)
+cities_file.close()
+
+cities_file = open("cities", "r")
+for line in cities_file:
+    print(line, end="")
+
+cities_file.close()
+
+with open("cities", "r") as cities_file:
+    for line in cities_file:
+        print(line)
